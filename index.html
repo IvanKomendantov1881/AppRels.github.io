@@ -7,17 +7,31 @@
     <title>RELS</title>
 </head>
 <body>
-    <h1>Привет, Mini App!</h1>
-
-  <button onclick="sendData()">Вассап всем братьям!</button>
-
+    <header class="RelsLogo">
+        <div class='RELS_Title'>
+          <div class='BlockTitle'>
+            <p class='LogoText'>RELS</p>
+          </div>
+        </div>
+    </header>
+    <section class="AiSectionBlock">
+        <div class='AiBlockText'>
+            <h1 class='AiBlockTextMain'>Ai</h1>
+            <h5 class='AiBlockTextMinor'>Intelligence for relationship</h5>
+        </div>
+        <div class='AiBlockImage'>
+            <div class='AiBlockImageMain'><img src="../img/image 4.jpg" alt="" class='AiBlockStartImage' oncontextmenu="return false" /></div>
+            <div class='AiBlockImageMinor'><img src="../img/Gemini_Generated_Image_51uln151uln151ul 1.jpg" alt="" class='AiBlockBackImage' oncontextmenu='False'/></div>
+        </div>
+    </section>
+    <section class="ButtonSectionBlock">
+        <div class="ButtonNext">
+            <h4 class="ButtonText">NEXT</h4>
+        </div>
+    </section>
   <script>
     const tg = window.Telegram.WebApp;
     tg.expand();
-      
-    function sendData() {
-      tg.sendData(JSON.stringify({ message: "Hello from Mini App!" }));
-    }
   </script>
 </body>
 </html>
