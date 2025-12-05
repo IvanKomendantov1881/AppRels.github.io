@@ -15,17 +15,22 @@ body{
 h1{
   font-size: 124px;
   font-family: 'SF Pro', sans-serif;
-  color: Black;
+    background-image: linear-gradient(to bottom, #5d4588, #89a9c7);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
   font-weight: bold;
 }
 
 h2{
   font-size: 84px;
   font-family: 'SF Pro', sans-serif;
-  color: black;
+  background-image: linear-gradient(to bottom, #5d4588, #89a9c7);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    color: transparent;
   font-weight: bold;
 }
-
 h3{
   font-size: 56px;
   font-family: 'SF Pro', sans-serif;
@@ -142,4 +147,53 @@ p{
 
 .ButtonNext h4{
     color: white;
+}
+
+.SafetyBlock{
+    text-align: center;
+    padding-top: 22px;
+}
+
+.SafetyBlockTextMinor{
+    padding-top: 1vh;
+}
+
+.SafetyBlockImage{
+    display: flex;
+    padding-top: 56px;
+}
+
+.SafetyImage{
+    width: 22vh;
+    height: 60vh;
+}
+
+.SafetyBlockImageLeft{
+    transform: rotate(8deg);
+    padding-right: 6px;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.SafetyBlockImageRight{
+    transform: rotate(8deg);
+    border-radius: 0px 16px 16px 0px;
+}
+
+.EaseSectionBlock{
+    padding-top: 1vh;
+    padding-bottom: 4vh;
+    text-align: center;
+    display: flex;          
+    flex-direction: column;
+    background-image: url(https://ivankomendantov1881.github.io/AppRels/img/Frame%2020.jpg);
+    background-position: 70% center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.EaseBlockTextMinor{
+  margin: 0 auto;
+  text-align: center; 
+  margin-top: auto;
+  color: white;
 }
