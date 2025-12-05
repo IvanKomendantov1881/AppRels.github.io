@@ -143,6 +143,7 @@ section{
     margin-bottom: 6px;
     height: auto;
 }
+
 .ButtonNext{
     border-radius: 14px;
     width: auto;
@@ -203,8 +204,10 @@ section{
 }
 
 .EaseBlockTextMinor{
-  margin: 0 auto;
-  text-align: center; 
-  margin-top: auto;
+  position: absolute;
+  text-align: center;
+  top: auto;
+  left: 0;
+  bottom: 4vh;
   color: white;
 }
