@@ -141,6 +141,7 @@ section{
 .ButtonSectionBlock{
     margin-top: 6px;
     margin-bottom: 6px;
+    height: auto;
 }
 .ButtonNext{
     border-radius: 14px;
